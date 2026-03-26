@@ -24,7 +24,7 @@ class FreetypeRecipe(Recipe):
     """
 
     # version = '2.10.1' (commented as it is no longer needed)
-    url = 'https://cdn.jsdelivr.net/gh/programmersd/counter@main/freetype-2.10.1.tar.gz'  # noqa
+    url = 'https://cdn.jsdelivr.net/gh/programmersd21/counter@main/freetype-2.10.1.tar.gz'  # noqa
     built_libraries = {'libfreetype.so': 'objs/.libs'}
 
     def get_recipe_env(self, arch=None, with_harfbuzz=False):
